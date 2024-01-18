@@ -148,16 +148,16 @@
 
 // --------------CLİCK ederken yeni class elave etmek --------
 
-// const btnList = document.querySelectorAll("button");
-// for (let i = 0; i < btnList.length; i++) {
+ const btnList = document.querySelectorAll("button");
+ for (let i = 0; i < btnList.length; i++) {
 
-//     btnList[i].addEventListener("click", function() {
+     btnList[i].addEventListener("click", function() {
 
-//         for (let j = 0; j < btnList.length; j++) {
+         for (let j = 0; j < btnList.length; j++) {
 
-//             btnList[j].classList.remove("active")
-//         }
-//         btnList[i].classList.add("active")
-//     })
+             btnList[j].classList.remove("active")
+         }
+         btnList[i].classList.add("active")
+     })
     
-// }
+ }
